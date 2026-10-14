@@ -36,5 +36,8 @@ A star schema stores measurable events in a central fact table connected directl
 Resource: What Is a Star Schema? A Complete Guide to Data Modeling - https://www.snowflake.com/en/fundamentals/star-schema/
 
 ## Misconception in My Track
+A common misconception is that a dedicated 5G network slice guarantees uninterrupted communication for emergency responders. In reality, network slicing allows an operator to configure logical networks for different service requirements, but it cannot eliminate every failure. Power outages, damaged equipment, weak coverage, or problems in shared infrastructure may still affect the service. Therefore, operators should combine network slicing with backup systems, security controls, monitoring, and recovery plans. Before submission, I will verify this explanation against the 3GPP network slicing documentation and identify the exact supporting statement.
+
 
 ## Open Question
+How can an operator test whether a dedicated 5G slice will maintain reliable emergency communications when network congestion occurs at the same time as a power failure or cyberattack?
