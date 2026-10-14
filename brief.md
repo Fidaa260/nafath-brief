@@ -21,10 +21,19 @@ An emergency responder's mobile app should keep essential information available 
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 
 ## Networking
+5G network slicing allows a mobile operator to create multiple logical networks on shared physical infrastructure. Each slice can be configured to support different service requirements. A dedicated slice for emergency responders could prioritize suitable connectivity, capacity, and latency for critical communications. However, slicing alone cannot prevent every outage. Reliable service also requires sufficient coverage, resilient infrastructure, security controls, and continuous network monitoring.
+
+Resource: 5G Network Slicing - https://www.3gpp.org/technologies/network-slicing
 
 ## Cybersecurity
+Incident response helps an organization manage cyberattacks in a structured way. The main activities include preparation, detecting and analyzing incidents, containing the threat, removing its cause, recovering affected services, and learning from the incident. If the 5G service is attacked, the team should identify affected systems, limit the damage, remove the threat, and restore operations safely. Reviewing the incident helps improve defenses and response procedures.
+
+Resource: SP 800-61 Rev. 3: Incident Response Recommendations and Considerations for Cybersecurity Risk Management - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 
 ## Data
+A star schema stores measurable events in a central fact table connected directly to dimension tables, such as date and region. A snowflake schema organizes some dimensions into additional related tables to reduce duplicated data. For daily reports of 5G service usage by region, a star schema is often a suitable choice because it is simple to understand and query. The final choice should consider reporting needs and performance.
+
+Resource: What Is a Star Schema? A Complete Guide to Data Modeling - https://www.snowflake.com/en/fundamentals/star-schema/
 
 ## Misconception in My Track
 
